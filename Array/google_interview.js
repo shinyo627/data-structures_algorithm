@@ -10,7 +10,7 @@ const array 1 = ['a', 'b', 'c', 'x']
 const array2 = ['z', 'y', 'x']
 should return true.*/
 
-// ask about how big the array of inputs will be
+// * ask about how big the array of inputs will be
 // 2 parameters -- no size limit
 // return true or false
 
@@ -33,13 +33,13 @@ function containsCommonItem(arr1, arr2) {
   return false;
 }
 
-// 0(a*b) arr1 and arr2 sizes can be variable.
-// 0(n^2) if arr 1 and arr2 sizes were the same.
-// 0(1) - Space Complexity
+// * 0(a*b) arr1 and arr2 sizes can be variable.
+// * 0(n^2) if arr 1 and arr2 sizes were the same.
+// * 0(1) - Space Complexity
 
 // console.log(containsCommonItem(array1, array2));
 
-//*** Usage of hastable to turn 0(a*b) time complexity better ***
+//*** Usage of hashtable to turn 0(a*b) time complexity better ***
 const array1 = ['a', 'b', 'c', 'x'];
 const array2 = ['z', 'y', 'x'];
 

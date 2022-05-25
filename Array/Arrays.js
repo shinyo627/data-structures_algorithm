@@ -1,4 +1,4 @@
-// Array - collection of data that stores data in sequence manner
+// Array - collection of data that stores data in sequence(ordered) manner
 const strings = ['a', 'b', 'c', 'd'];
 // we are taking 4*4 = 16 bytes of storage with string array.
 //4 byte 32 bits
